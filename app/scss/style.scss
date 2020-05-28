@@ -1,0 +1,211 @@
+@import 'vars';
+@import 'fonts';
+@import 'global';
+// ============================
+.content {
+    height: 750px;
+    padding: 30px 10px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 300px 45px 300px 45px 300px;
+        grid-template-rows: 215px 215px 215px;
+        gap: 20px 20px;
+        grid-template-areas: "box01 box01 box02 box02 box03" "box04 box05 box05 box05 box03" "box04 box06 box06 box07 box07";
+    }
+    &__box01 {
+        grid-area: box01;
+        width: 360px;
+        height: 215px;
+    }
+    &__box02 {
+        grid-area: box02;
+        width: 360px;
+        height: 215px;
+    }
+    &__box03 {
+        grid-area: box03;
+        width: 360px;
+        height: 450px;
+    }
+    &__box04 {
+        grid-area: box04;
+        width: 293px;
+        height: 450px;
+    }
+    &__box05 {
+        grid-area: box05;
+        width: 427px;
+        height: 215px;
+    }
+    &__box06 {
+        grid-area: box06;
+        width: 363px;
+        height: 215px;
+    }
+    &__box07 {
+        grid-area: box07;
+        width: 424px;
+        height: 215px;
+    }
+    .wrap-img {
+        position: relative;
+        border-radius: 4px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &_link {
+            position: absolute;
+            bottom: 0;
+            margin-bottom: 10px;
+            height: 52px;
+            width: 230px;
+            max-width: 100%;
+            background-color: #002236cc;
+            display: flex;
+            align-items: center;
+            border-bottom: 4px solid #f4391a;
+            cursor: pointer;
+            &-title {
+                position: relative;
+                z-index: 3;
+                @include s400;
+                font-size: 30px;
+                color: #ffffff;
+                margin-left: 30px;
+            }
+            &-btn {
+                width: 160px;
+                height: 43px;
+                border-radius: 20px;
+                background-color: #f4841a;
+                display: none;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                color: #ffffff;
+                &:hover {
+                    background-color: tomato;
+                }
+            }
+        }
+    }
+}
+
+.link-box1 {
+    &:hover {
+        transition: .5s;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        .title-box1 {
+            position: absolute;
+            bottom: 7px;
+            left: 0;
+        }
+        .btn-box1 {
+            display: flex;
+        }
+    }
+}
+
+.link-box2 {
+    &:hover {
+        transition: .5s;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        .title-box2 {
+            position: absolute;
+            bottom: 7px;
+            left: 0;
+        }
+        .btn-box2 {
+            display: flex;
+        }
+    }
+}
+
+.link-box3 {
+    &:hover {
+        transition: .5s;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        .title-box3 {
+            position: absolute;
+            bottom: 7px;
+            left: 0;
+        }
+        .btn-box3 {
+            display: flex;
+        }
+    }
+}
+
+.link-box4 {
+    &:hover {
+        transition: .5s;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        .title-box4 {
+            position: absolute;
+            bottom: 7px;
+            left: 0;
+        }
+        .btn-box4 {
+            display: flex;
+        }
+    }
+}
+
+.link-box5 {
+    &:hover {
+        transition: .5s;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        .title-box5 {
+            position: absolute;
+            bottom: 7px;
+            left: 0;
+        }
+        .btn-box5 {
+            display: flex;
+        }
+    }
+}
+
+.link-box6 {
+    &:hover {
+        transition: .5s;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        .title-box6 {
+            position: absolute;
+            bottom: 7px;
+            left: 0;
+        }
+        .btn-box6 {
+            display: flex;
+        }
+    }
+}
+
+.link-box7 {
+    &:hover {
+        transition: .5s;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        .title-box7 {
+            position: absolute;
+            bottom: 7px;
+            left: 0;
+        }
+        .btn-box7 {
+            display: flex;
+        }
+    }
+}
